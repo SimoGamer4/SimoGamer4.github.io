@@ -1,0 +1,8 @@
+#html{ 
+margin:0; 
+padding:0;
+background-image: url(sfondo-metallico.jpg); 
+background-repeat: repeat-y;
+background-position: 10px 0;
+background-attachment: fixed;
+} 
