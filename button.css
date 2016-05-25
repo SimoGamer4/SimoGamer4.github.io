@@ -1,12 +1,17 @@
 #button1 {
 	font-family: "GothamBook";
-	background-color: red;
+	background-color: yellow;
 	color: black;
-	width: 50px;
-	height: 20px;
+	width: 27%;
+	height: 7%;
 	position: relative;
+	top: 72%;
+	padding: 2.5% 4%;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 130%;
 }
+#button1:hover {
+	background-color: white;
+	transition-duration: 0.3s;
