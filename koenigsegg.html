@@ -42,6 +42,52 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+#copritesto {
+    width: 32%;
+    height: 7%;
+    opacity: 0.5;
+    z-index: 1;
+    position: absolute;
+    top: 37%;
+    left: 3%;
+    background: black;
+}
+#testo1 {
+    top: 36%;
+    left: 13%;
+    position: absolute;
+    color: yellow;
+}
+#copritesto2 {
+    opacity: 0.5;
+    width: 32%;
+    height: 6%;
+    position: absolute;
+    top: 37%;
+    left: 50.12%;
+    background: black;
+    z-index: 1;
+}
+#testo2 {
+    top: 36%;
+    left: 64%;
+    position: absolute;
+    color: yellow;
+}
+#foto1 {
+    position: absolute;
+    width: 32%;
+    height: 40%;
+    top: 34%;
+    left: 3%;
+}
+#foto2 {
+    position: absolute;
+    width: 32%;
+    height: 40%;
+    top: 34%;
+    left: 50.1%;
+}
 </style>
    <title>Koenigsegg</title>
   </head>
@@ -80,11 +126,15 @@ li.dropdown {
     <br><br><br><br>
     <center>
     <a href="koenigsegg1.html">
-      <img src="koenigsegg1.jpg" width="550" height="350">
+      <img src="koenigsegg1.jpg" id="foto1">
     </a>
     <a href="koenigsegg2.html">
-      <img src="koenigsegg2.jpg" width="550" height="350" hspace="150">
+      <img src="koenigsegg2.jpg" id="foto2">
     </a>
     </center>
+    <h2 id="testo1">KOENIGSEGG ONE</h2>
+    <div id="copritesto"></div>
+    <h2 id="testo2">KOENISEGG REGERA</h2>
+    <div id="copritesto2"></div>
   </body>
 </html>
